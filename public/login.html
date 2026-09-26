@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121410">
+  <title>Sign in / EUMHR Ticket Studio</title>
+  <link rel="stylesheet" href="/login.css">
+  <script src="/login.js" defer></script>
+</head>
+<body>
+  <main class="auth-layout">
+    <section class="auth-side">
+      <a class="brand" href="/login" aria-label="EUMHR Ticket Studio">
+        <span class="brand-mark">M</span>
+        <span class="brand-name">EUMHR <span>/</span> TICKET STUDIO</span>
+      </a>
+
+      <div class="auth-content">
+        <div class="eyebrow"><span class="status-dot"></span> PRIVATE WORKSPACE <span class="eyebrow-id">AUTH / 01</span></div>
+        <h1>Good to<br>have you <span>back.</span></h1>
+        <p class="auth-intro">Sign in to your panel workspace.</p>
+
+        <form id="loginForm" class="login-form">
+          <label for="username">USERNAME</label>
+          <div class="password-field">
+            <input id="username" name="username" type="text" autocomplete="username" placeholder="admin" required autofocus>
+          </div>
+          <label for="password">WORKSPACE PASSWORD</label>
+          <div class="password-field">
+            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required autofocus>
+            <button id="togglePassword" class="reveal-button" type="button" aria-label="Show password" aria-pressed="false">Show</button>
+          </div>
+          <button id="submitButton" class="submit-button" type="submit"><span>Unlock workspace</span><span aria-hidden="true">&#8599;</span></button>
+          <p id="loginStatus" class="login-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <footer class="auth-footer"><span>MHR / EUMHR</span><span>DISCORD SYSTEMS <i></i> 2026</span></footer>
+    </section>
+
+    <section class="visual-side" aria-label="Ticket Studio preview">
+      <div class="visual-index"><span>STUDIO ACCESS</span><span>01 <i>/</i> 01</span></div>
+      <div class="visual-grid" aria-hidden="true"></div>
+      <div class="visual-content">
+        <div class="access-stamp"><span class="stamp-mark">M</span><span>AUTHORIZED<br>PERSONNEL ONLY</span><span class="stamp-line"></span></div>
+        <div class="visual-title"><span>YOUR SERVER.</span><strong>YOUR RULES<span>.</span></strong></div>
+        <div class="mini-window">
+          <div class="mini-topbar"><span class="mini-channel"><i>#</i> support-desk</span><span class="mini-pill"><i></i> ONLINE</span></div>
+          <div class="mini-message">
+            <span class="mini-avatar">M</span>
+            <div class="mini-message-content">
+              <div class="mini-author">EUMHR <span>BOT</span><small>Today at 9:41 PM</small></div>
+              <div class="mini-panel">
+                <span class="mini-label">SUPPORT CENTER</span>
+                <strong>How can we help?</strong>
+                <p>Our team is ready when you are.</p>
+                <button type="button" tabindex="-1"><i>&#43;</i> Create a ticket</button>
+              </div>
+              <div class="mini-caption"><span>COMPONENTS V2</span><span>LIVE PREVIEW <i></i></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="visual-foot"><span>BUILD WITH INTENTION</span><span>EST. MMXXIV</span></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

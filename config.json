@@ -1,0 +1,48 @@
+{
+  "siteName": "EUMHR Ticket Studio",
+  "themeColor": "#c6f36b",
+  "footerText": "Made for the community",
+  "serverLogoUrl": "",
+  "ticketLogChannelId": "",
+  "dmLogChannelId": "",
+  "transcriptSaveDirectory": "data/transcripts",
+  "panels": [
+    {
+      "id": "testing-muitc8fv",
+      "commandName": "setup-testing",
+      "commandDescription": "setup testing panel",
+      "categoryChannelId": "1551649419273838595",
+      "supportRoleId": "1553477030614671411",
+      "panelTitleText": "Testing",
+      "panelDescriptionText": "",
+      "buttonLabel": "Open Ticket",
+      "buttonEmoji": "🎫",
+      "components": [
+        {
+          "type": "text",
+          "content": "##  Test Panel"
+        },
+        {
+          "type": "separator",
+          "spacing": "large",
+          "divider": true
+        },
+        {
+          "type": "actionRow",
+          "buttons": [
+            {
+              "buttonType": "open_ticket",
+              "label": "Open Ticket",
+              "emoji": "🎫",
+              "style": "Primary"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "content": "^  Click To Open Ig"
+        }
+      ]
+    }
+  ]
+}
