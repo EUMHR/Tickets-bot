@@ -1,6 +1,6 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=1200&color=9900EF&center=false&vCenter=true&width=560&lines=EUMHR+Tickets+Bot;Discord.js+v14+Ticket+Bot;Admin+Dashboard" alt="typing header" />
 
-[![Repository](https://img.shields.io/badge/Repository-EUMHR--Tickets-Bot-9900EF?style=flat&logo=github&logoColor=white)](https://github.com/EUMHR/Tickets-bot) [![Discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.js.org) [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+![Repository - EUMHR-Tickets-Bot](https://img.shields.io/badge/Repository-EUMHR--Tickets--Bot-9900EF?style=flat&logo=github&logoColor=white)](https://github.com/EUMHR/Tickets-bot) [![Discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.js.org) [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 <br/>
 
 A Discord.js v14 ticket bot with a password-protected Express admin area for managing ticket panels, transcripts, users, DM logs, and site settings.
