@@ -1,0 +1,12 @@
+{
+  "siteName": "Ticket Dashboard",
+  "themeColor": "#3b82f6",
+  "footerText": "Discord Ticket Management",
+  "serverLogoUrl": "",
+  "ticketLogChannelId": "",
+  "pointsLogChannelId": "",
+  "dmLogChannelId": "",
+  "transcriptSaveDirectory": "data/transcripts",
+  "panels": [],
+  "domainUrl": ""
+}
